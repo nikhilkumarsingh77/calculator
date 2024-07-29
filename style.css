@@ -1,0 +1,65 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&family=Roboto:wght@300&display=swap');  
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+  .button{
+    padding: 12px;
+    width: 66px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: larger;
+    color: white;
+    text-shadow: 0px 0px 5px grey;
+    box-shadow: 1px 1px 2px rgb(205, 205, 205);
+    border-radius: 50%;
+    background: linear-gradient(45deg,rgb(118, 118, 118),rgb(38, 35, 35),rgb(20, 20, 20),rgb(23, 21, 21));
+
+}
+.row{
+    margin: 8px 0;
+    width: 82vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+  width: 280px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px white;
+  border: none;
+  outline: none;
+  text-align: right;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+element.style {
+  width: 291px;
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border : 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(211, 255, 123);
+    font-size: xx-large;
+}
+.container{
+  width: 320px;
+  padding-top: 30px;
+  height: 480px;
+  background-color: black;
+  border-radius: 20px;
+  
+}
+#target{
+  border-radius: 18%;
+  background: linear-gradient(45deg,rgb(24, 105, 255),rgb(35, 153, 255),rgb(17, 128, 255));
+}
